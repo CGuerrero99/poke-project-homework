@@ -1,0 +1,54 @@
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .filter-button {
+    display: inline-block;
+    background-color: #ffcb05;
+    color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .filter-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+   
+  .filter-button.normal {
+    background-color: #a8a878;
+  }
+   
+  .filter-button.fire {
+    background-color: #f08030;
+  }
+   
+  .filter-button.water {
+    background-color: #6890f0;
+  }
+   
+  .filter-button.electric {
+    background-color: #f8d030;
+  }
+   
+  .filter-button.grass {
+    background-color: #78c850;
+  }
+   
+  .filter-button.ice {
+    background-color: #98d8d8;
+  }
+   
+  .filter-button.fighting {
+    background-color: #c03028;
+  }
